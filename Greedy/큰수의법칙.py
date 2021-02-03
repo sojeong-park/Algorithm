@@ -12,17 +12,26 @@ arr = list(map(int, input().split()))
 arr.sort()
 firstNum = arr[n-1] # 가장 큰 수
 secondNum = arr[n-2] # 그다음으로 큰 수
+tmpM = m
 
+# 풀이1
 sum = 0
 while True:
     for i in range(k):
-        if m == 0:
+        if tmpM == 0:
             break
         sum += firstNum
-        m -= 1
-    if m == 0:
+        tmpM -= 1
+    if tmpM == 0:
         break
     sum += secondNum
-    m -= 1
-
+    tmpM -= 1
 print(sum)
+
+# 풀이2
+z = m // (k+1) * k
+z += m % (k+1)
+
+sumFirst = firstNum * z
+sumSecond = secondNum * (m-z)
+print(sumFirst + sumSecond)
