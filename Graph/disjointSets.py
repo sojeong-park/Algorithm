@@ -1,9 +1,10 @@
 # 기본적인 서로소 집합 알고리즘
 
+# 경로 압축 기법 개선
 def findParent(parent, x):
     if parent[x] != x:
-        return findParent(parent, parent[x])
-    return x
+        parent[x] = findParent(parent, parent[x])
+    return parent[x]
 
 def unionParent(parent, a, b):
     a = findParent(parent, a)
