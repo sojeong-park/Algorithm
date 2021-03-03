@@ -34,7 +34,7 @@ def solution(key, lock):
                 for i in range(keyLen): #자물쇠에 열쇠를 끼워 넣기
                     for j in range(keyLen):
                         newLock[x+i][y+j] += key[i][j]
-                if check(newLock) == True: # 새로운 자물쇠에 열쇠가 정확히 맞는지 체크 
+                if check(newLock) == True: # 새로운 자물쇠에 열쇠가 정확히 맞는지 체크
                     return True
                 for i in range(keyLen): # 자물쇠에서 열쇠 다시 빼기
                     for j in range(keyLen):
