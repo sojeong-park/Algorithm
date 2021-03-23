@@ -15,7 +15,7 @@ for i in range(n):
             break
     else:
         print("Yes")
-    
+
     #풀이2. 풀이 1번보다 간결함
     for k in range(len(alpa)//2):
         if alpa[k] != alpa[-1-k]:
@@ -23,3 +23,9 @@ for i in range(n):
             break
     else:
         print("YES")
+
+    #풀이3
+    if alpa == alpa[::-1]:
+        print("YES")
+    else:
+        print("NO")
