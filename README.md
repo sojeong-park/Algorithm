@@ -11,3 +11,7 @@
 7. 최단경로
 8. 그래프
 ***
+
+
+####2. 구현(Simulation) 문제 정리
+1) [치킨 배달](https://github.com/sojeong-park/Algorithm/blob/main/simulation/B15686.py) (https://www.acmicpc.net/problem/15686)
