@@ -11,7 +11,9 @@
 7. 최단경로
 8. 그래프
 ***
-
-
-####2. 구현(Simulation) 문제 정리
+#### 1. 그리디 문제 정리
+1) [모험가 길드](https://github.com/sojeong-park/Algorithm/blob/main/Greedy/모험가길드.py)
+2) [더하기 혹은 곱하기](https://github.com/sojeong-park/Algorithm/blob/main/Greedy/곱하기혹은더하기.py)
+3) [문자열뒤집기](https://github.com/sojeong-park/Algorithm/blob/main/Greedy/B1439.py)
+#### 2. 구현(Simulation) 문제 정리
 1) [치킨 배달](https://github.com/sojeong-park/Algorithm/blob/main/simulation/B15686.py) (https://www.acmicpc.net/problem/15686)
