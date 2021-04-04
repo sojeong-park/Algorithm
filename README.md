@@ -17,3 +17,4 @@
 3) [문자열뒤집기](https://github.com/sojeong-park/Algorithm/blob/main/Greedy/B1439.py)
 #### 2. 구현(Simulation) 문제 정리
 1) [치킨 배달](https://github.com/sojeong-park/Algorithm/blob/main/simulation/B15686.py) (https://www.acmicpc.net/problem/15686)
+2) [문자열 압축](https://github.com/sojeong-park/Algorithm/blob/main/simulation/문자열압축_2.py)
